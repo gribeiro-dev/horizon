@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+head {
+  margin: 0;
+  padding: 0;
+}
+.cabecalho{
+    background: 1px #5e1b25;
+    height: 100px;
+    display: flex;
+    padding-left: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho a img{
+    margin-top: 10px;
+    width: 230px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+.cabecalho a{
+    color: white;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.cabecalho a p{
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rodape{
+    background-color: #5e1b25;
+    height: 300px;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    display: flex;
+}
+.rodape img{
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.rodape ul li p{
+    color: rgb(197, 193, 193);
+    opacity: 60%;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rodape ul li a{
+    color: rgb(197, 193, 193);
+    opacity: 60%;
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+.rodape ul li{
+    list-style: none;
+}
+.rodape .redes li img{
+    width: 30px;
+    display: flex;
+}
+.rodape .rodape2 .navegacao li p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rodape .rodape2 ul{
+    text-align: center;
+    margin-left: 475px;
+}
+.rodape .rodape2 ul li{
+    margin-top: 24px;
+    text-align: center;
+}
+.rodape .rodape3 .navegacao2 p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.rodape .rodape3 ul li p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rodape .rodape3 ul{
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 475px;
+}
+.rodape .rodape3 ul li{
+    margin-top: 13px;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+}
