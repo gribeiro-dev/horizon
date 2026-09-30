@@ -17,11 +17,45 @@
     text-align: center;
     margin-left: 500px;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .viagens-medio{
-    border: 5px solid #000 ;
-    border-radius: 10px;
-    width: 1000px;
-    height: 500px;
+    border: 5px solid #5e1b25 ;
+    border-radius: 100px;
+    width: 1350px;
+    height: 420px;
     text-align: center;
+    background-color: #5e1b25;
+    margin-bottom: 100px;
+}
+.viagens-medio p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.viagens-medio img{
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 5px solid #5e1b25;
+    background-color: #a85558;
+}
+.viagens-fundamental{
+    border: 5px solid #5e1b25 ;
+    width: 1350px;
+    border-radius: 100px;
+    height: 420px;
+    text-align: center;
+    background-color: #5e1b25;
+    margin-bottom: 100px;
+}
+.viagens-fundamental p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.viagens-fundamental img{
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 5px solid #5e1b25;
+    background-color: #a85558;
 }
