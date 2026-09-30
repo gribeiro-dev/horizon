@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+head {
+  margin: 0;
+  padding: 0;
+}
+.cabecalho{
+    background: 1px #5e1b25;
+    height: 100px;
+    display: flex;
+    padding-left: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho a img{
+    margin-top: 10px;
+    width: 230px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+.cabecalho a{
+    color: white;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.cabecalho a p{
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rodape{
+    background-color: #5e1b25;
+    height: 200px;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+}
+.rodape img{
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.rodape ul li p{
+    color: rgb(197, 193, 193);
+    opacity: 60%;
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
