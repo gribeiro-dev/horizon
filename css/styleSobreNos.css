@@ -2,8 +2,9 @@
     width: 380px;
     height: 70px;
     border-radius: 30px;
-    background-color: brown;
+    background-color: #6d0212;
     margin-left: 750px;
+    margin-top: -50px;
 
 }
 .tituloSobreNos h1{
@@ -13,4 +14,7 @@
     justify-content: space-around;
     padding-top: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fonte{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
