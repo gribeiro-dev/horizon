@@ -1,0 +1,16 @@
+.tituloSobreNos{
+    width: 380px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: brown;
+    margin-left: 750px;
+
+}
+.tituloSobreNos h1{
+    color: aliceblue;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
