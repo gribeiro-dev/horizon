@@ -36,7 +36,7 @@ head {
 .rodape{
     background-color: #5e1b25;
     height: 300px;
-    position: absolute;
+    
     bottom:0%;
     width: 100%;
     display: flex;
