@@ -29,6 +29,32 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.quemEhAHorizonTitulo{
+    font-size: 50px;
+    color: #5e1b25;
+    margin-left: 310px;
+    margin-top: -60px;
+}
+.quemEhAHorizon{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.quemEhAHorizon p{
+    width: 750px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.quemEhAHorizon img{
+    margin-left: 120px;
+    width: 700px;
+    border: 5px solid;
+    border-color: #5e1b25;
+    
+}
+
+
 
 .cinza{
     width: auto;
@@ -67,29 +93,34 @@
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    padding-left: 300px; 
+    padding-left: 300px;
 }
 
 .texto p{
+    margin-top: -50px;
     padding-left: 20px;
 }
 .texto h3{
+    margin-top: 20px;
     padding-left: 250px;
     font-size: 60px;
 }
-.botao{
+.monteSuaViagem button{
     width: 400px;
     height: 60px;
     border-radius: 50px;
     background-color: #5e1b25;
     margin-left: 1100px;
-    margin-top: -80px;
     text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: -30px;
 
 }
-.botao a{
+.monteSuaViagem button:hover{
     font-size: 40px;
-    color: #e4e4e4;
+    color: #ebe7e7;
     text-decoration: none;
+    background-color: #49131b;
 
 }
