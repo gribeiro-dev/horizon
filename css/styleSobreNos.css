@@ -1,10 +1,24 @@
+.fonte{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}       
+
+
 .tituloSobreNos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloSobreNos div{
     width: 380px;
     height: 70px;
     border-radius: 30px;
     background-color: #6d0212;
-    margin-left: 750px;
-    margin-top: -50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    place-items: center;
+    display: flex;
+    justify-content: space-around;
+    
 
 }
 .tituloSobreNos h1{
@@ -12,9 +26,70 @@
     font-size: 40px;
     display: flex;
     justify-content: space-around;
-    padding-top: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.fonte{
+
+
+.cinza{
+    width: auto;
+    height: 650px;
+    background-color: #e4e4e4;
+    border-radius: 100px;
+    margin-bottom: -100px;
+
+
+}
+
+.centroLogoCinza{
+    display: flex;
+    justify-content: space-around;
+}
+.logoCinza{
+    width: 500px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #5e1b25;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.logoCinza img{
+    width:300px;
+
+}
+
+.texto{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-left: 300px; 
+}
+
+.texto p{
+    padding-left: 20px;
+}
+.texto h3{
+    padding-left: 250px;
+    font-size: 60px;
+}
+.botao{
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #5e1b25;
+    margin-left: 1100px;
+    margin-top: -80px;
+    text-align: center;
+
+}
+.botao a{
+    font-size: 40px;
+    color: #e4e4e4;
+    text-decoration: none;
+
 }

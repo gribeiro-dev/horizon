@@ -1,11 +1,4 @@
-.nova-imagem a img{
-    margin-top: 30px;
-}
-.favoritos1 img{
-    margin-top: 10px;
-    margin-left: 750px;
-}
-.favoritos2 img{
-    margin-top: 10px;
-    margin-left: 10px;
+.corpo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffd900;
 }
