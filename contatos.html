@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/cabecalhoeRodape.css">
 
     <link rel="stylesheet" href="./css/styleContatos.css">
-    <head>
+    
         <div class="cabecalho">
                 <a href="index.html"><img src="./img/logo.jpg"></a> 
                 <a href="sobreNos.html"><p>Quem somos</p></a>
@@ -25,7 +25,103 @@
         <h2>Forneça seus dados abaixo e <br> entraremos em contato!</h2>
     </div>
 
-    <img class="icone" src="./img/icone_contatos.png" alt="">
+    <div class="info-e-form">
+        <div class="informacoes">
+
+            <img class="icone" src="./img/icone_contatos.png" alt="">
+
+            <div class="info1">
+                <b>Horário de atendimento</b><img src="./img/relogio.png" alt="">
+                <p>Segunda à Sexta (excessão de feriados) <br> 9h às 18h </p>
+            </div>
+            <div class="info2">
+                <b>Telefone</b><img src="./img/zap.png" alt="">
+                <p>(11) 95768-9425</p>
+            </div>
+            <div class="info1">
+                <b>E-mail</b><img src="./img/carta.png" alt="">
+                <p>contato@horizonformatura.com.br</p>
+            </div>
+            <div class="info2">
+                <b>Endereço</b><img src="./img/mapa.png" alt="">
+                <p>R. Vice Presidente Osvaldo, 481 - Lj 13 - <br> Vila Mariana, São Paulo - SP, 09811-042</p>
+            </div>
+
+        </div>
+        <div class="formulario">
+            <form action="formulario.php" method="POST">
+                <h1>Formulário de Contato</h1>
+                <label for="nome">Nome: </label>
+                <input class="nome" type="text" name="nome" placeholder=" Digite seu nome" required>
+                <input class="nome" type="text" name="sobrenome" placeholder=" Digite seu sobrenome" required>
+
+                <label for="email">E-mail: </label>
+                <input class="email" type="email" name="email" placeholder=" Digite seu endereço de e-mail" required>
+
+                <div class="telefone-estado-cidade">
+                    <div>
+                        <label for="telefone">Telefone:</label> <br>
+                        <input class="telefone" type="text" name="telefone" placeholder=" (99) 9999-9999" required>
+                    </div>
+
+                    <div >
+                        <label for="estado">Estado:</label> <br>
+                        <input class="estado" type="text" name="estado" placeholder=" Digite seu estado" required>
+                    </div>
+
+                    <div>
+                        <label for="cidade">Cidade:</label> <br>
+                        <input class="cidade" type="text" name="cidade" placeholder=" Digite sua cidade" required>
+                    </div>
+                </div>
+
+                <label for="colegio">Colégio:</label>
+                <input class="colegio" type="text" name="colegio" placeholder=" Digite o nome do seu colégio" required>
+
+                <div class="ano-data">
+                    <div>
+                        <label for="ano">Ano da viagem:</label> <br>
+                        <select class="ano" name="ano" required>
+                            <option value="">Selecione o ano</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="data">Data de nascimento: </label> 
+                        <input class="data" type="date" name="data" required>
+                    </div>
+                </div>
+
+                <label for="voce">Você é: </label>
+                <select class="voce" id="" name="voce" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="aluno">Aluno</option>
+                    <option value="responsavel">Responsável</option>
+                    <option value="escola">Gestão escolar</option>
+                </select>
+
+                <label for="destino">Destino: </label>
+                <select class="destino" name="destino" required>
+                    <option value="">Selecione um destino</option>
+                    <option value="barca">Barcelona</option>
+                    <option value="lencois">Lençóis Maranhenses</option>
+                    <option value="paraty">Paraty RJ</option>
+                    <option value="campos">Campos do Jordão</option>
+                    <option value="salvador">Salvador</option>
+                    <option value="disney">Disney</option>
+                </select>
+
+                <textarea class="mensagem" name="mensagem" placeholder=" Mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <p class="suborno">Está pronto para comemorar a <br> passagem desta grande etapa? <br> A melhor experiência, você terá <br> viajando com a Horizon!</p>
 
 <footer>
     <div class="rodape">
