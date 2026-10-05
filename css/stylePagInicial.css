@@ -39,7 +39,7 @@
     margin-top: 15px;
     font-family: 'Raleway', sans-serif;
     opacity: 70%;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 30px;
     width: 750px;
 }
@@ -71,13 +71,6 @@
 
 
 
-.tituloViajar {
-    color: rgb(88, 86, 85);
-    margin-top: 30px;
-    text-align: center;
-    font-family: 'Commissioner', sans-serif;
-    font-weight: 100;
-}
 
 .cardsContainer {
     display: flex;
@@ -86,6 +79,7 @@
 }
 
 .cardViagemPerfeita {
+    margin-top: 20px;
     border: 0px, solid black;
     border-radius: 30px;
     width: 1260px;
@@ -125,9 +119,9 @@
 .textContainer .textoDescricao {
     margin-top: 30px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-style: italic;
-    opacity: 80%;
+    opacity: 100%;
     text-align: left;
     font-size: 30px;
 }
@@ -184,4 +178,33 @@
 .videoContainer video {
     display: block;
     width: 100%;
+}
+.tituloViajar {
+    margin-top: 300px;
+    font-size: 46px;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    margin-top: 30px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.destaqueTituloViajar {
+    color: #c2263d;
+}
+
+.descricaoTituloViajar {
+    margin-top: 20px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.descricaoTituloViajar p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100;
+    font-size: 26px;
+    opacity: 86%;
 }
