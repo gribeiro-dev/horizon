@@ -79,6 +79,8 @@
 }
 
 .cardViagemPerfeita {
+    position: relative;
+    overflow: hidden;
     margin-top: 20px;
     border: 0px, solid black;
     border-radius: 30px;
@@ -203,8 +205,104 @@
 }
 
 .descricaoTituloViajar p {
+    margin-top: 20px;
+    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-size: 100;
     font-size: 26px;
     opacity: 86%;
+}
+
+.cartoesContainer {
+   margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+
+.card1 {
+    text-align: center;
+    height: 400px;
+    width: 340px;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    
+}
+
+.tituloDoCard {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.tituloDoCard2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+
+.tituloDoCard3 {
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.descricaoDoCard {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 280px;
+    font-style: italic;
+    margin-left: 28px;
+    font-size: 20px;
+}
+
+.descricaoDoCard2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 300px;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.descricaoDoCard3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 300px;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.card2 {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 400px;
+    width: 340px;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card3 {
+    text-align: center;
+    height: 400px;
+    width: 340px;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
