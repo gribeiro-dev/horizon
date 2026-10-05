@@ -1,12 +1,111 @@
 .tituloViajar {
-    color: rgb(255, 60, 0);
+    color: rgb(88, 86, 85);
     margin-top: 30px;
     text-align: center;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 100;
 }
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardViagemPerfeita {
+    border: 0px, solid black;
+    border-radius: 30px;
+    width: 1260px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.textContainer {
+    font-family: 'Commissioner', sans-serif;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.textContainer .textViagem {
+    margin-right: 120px;
+    font-size: 50px;
+}
+
+.textContainer .destaquePerfeita {
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 18px;
+    margin-left: 130px;
+    text-align: center;
+    width: 380px;
+    font-size: 60px;
+    background-color: #c2263d;
+    color: white;
+}
+
+.textContainer .textoDescricao {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 80%;
+    text-align: left;
+    font-size: 30px;
+}
+
+.imgContainer {
+    position: relative;
+    margin-left: 30px;
+}
+
+.imgContainer .primeiraFoto {
+    margin-top: 10px;
+}
+
+.imgContainer .segundaFoto {
+    margin-left: 10px;
+    margin-right: 170px;
+    margin-bottom: 170px;
+    z-index: 2;
+}
+
+.imgContainer .terceiraFoto {
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    border: #c2263d;
+    border-radius: 40px;
+    z-index: 2;
+    margin-top: 60px;
+    right: -70px;
+}
+
+.backgroundVermelho {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 265px;
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    background: rgba(139, 15, 45, 1);
+    width: 115px;
+    height: 290px;
+    border-radius: 40px;
+    transform: translateX(20px);
+}
+
+
+
+
 
 .videoContainer {
     position: relative;
-
 }
 
 .videoContainer video {
