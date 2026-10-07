@@ -2,3 +2,69 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffd900;
 }
+.camisas img{
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+.camisas img:hover {
+  transform: scale(1.05);
+  z-index: 5;
+}
+.camisas {
+    border: 1px solid;
+    color: #eceff1;
+    background-color: #eceff1;
+    height: 450px;
+    margin-bottom: 10px;
+}
+.produtos img{
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+.produtos img:hover {
+  transform: scale(1.05);
+  z-index: 5;
+}
+.produtos {
+    border: 1px solid;
+    color: #eceff1;
+    background-color: #eceff1;
+    height: 350px;
+    margin-bottom: 20px;
+}
+.diversos img{
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+.diversos img:hover {
+  transform: scale(1.05);
+  z-index: 5;
+}
+.diversos {
+    margin-top: 10px;
+    border: 1px solid;
+    color: #eceff1;
+    background-color: #eceff1;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.texto-final{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+}
