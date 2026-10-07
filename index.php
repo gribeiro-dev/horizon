@@ -1,3 +1,10 @@
+<?php
+
+    require_once "comentarios.php";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +27,8 @@
 </head>
 
 <body>
+
+
 
     <head>
         <div class="cabecalho">
@@ -226,8 +235,81 @@
 
     </div>
 
+    <div class="tituloRecomendacao">
+        <p>Quem viaja, <span class="destaqueTituloViajar"> recomenda!</span></p>
+    </div>
+
+    <div class="carousel">
+        <div class="containerRecomendacoes">
+
+            <?php foreach($comentarios as $comentario): ?>
+
+            <div class="cardComentario">
+
+                <div class="estrelas">
+                    <?php
+                    for($i = 0; $i < 5; $i++){
+                        echo $i < $comentario["estrelas"] ? "★" : "☆";
+                    }
+                    ?>
+                </div>
 
 
+                <p>
+                    <?= $comentario["texto"] ?>
+                </p>
+
+
+                <strong>
+                    <?= $comentario["autor"] ?>
+                    -
+                    <?= $comentario["regiao"] ?>
+                </strong>
+
+                <p> <!---- Ta vendo essa parte que fica ali embaixo do autor, esse p vazio serve pra ficar esse espaco-->
+                    
+                </p>
+
+            </div>
+
+            <?php endforeach; ?>
+
+            <?php foreach($comentarios as $comentario): ?>
+
+            <div aria-hidden class="cardComentario">
+
+                <div class="estrelas">
+                    <?php
+                    for($i = 0; $i < 5; $i++){
+                        echo $i < $comentario["estrelas"] ? "★" : "☆";
+                    }
+                    ?>
+                </div>
+
+
+                <p>
+                    <?= $comentario["texto"] ?>
+                </p>
+
+
+                <strong>
+                    <?= $comentario["autor"] ?>
+                    -
+                    <?= $comentario["regiao"] ?>
+                </strong>
+
+                <p> <!---- Ta vendo essa parte que fica ali embaixo do autor, esse p vazio serve pra ficar esse espaco-->
+                    
+                </p>
+
+            </div>
+
+            <?php endforeach; ?>
+
+
+
+        </div>
+    </div>
 
 
 
