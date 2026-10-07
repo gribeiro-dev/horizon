@@ -1,0 +1,457 @@
+.videoContainer {
+    position: relative;
+    height: 1000px;
+}
+
+
+.videoContainer video {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: 1;
+}
+
+
+.viagensFormatura {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+
+    color: white;
+}
+
+.texto1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 90px;
+}
+
+.texto2 {
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 70%;
+    font-weight: 300;
+    font-size: 30px;
+    width: 750px;
+}
+
+
+.textContainer p {
+    text-align: center;
+}
+
+.verDestinos {
+    font-size: 26px;
+    background-color: #5e1b25;
+    border-radius: 30px;
+    height: 40px;
+    width: 340px;
+    margin-left: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.verDestinos a {
+    margin-top: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardViagemPerfeita {
+
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    border: 0px, solid black;
+    border-radius: 30px;
+    width: 1260px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.textContainer {
+    font-family: 'Commissioner', sans-serif;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.textContainer .textViagem {
+    margin-right: 120px;
+    font-size: 50px;
+}
+
+.textContainer .destaquePerfeita {
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 18px;
+    margin-left: 130px;
+    text-align: center;
+    width: 380px;
+    font-size: 60px;
+    background-color: #c2263d;
+    color: white;
+}
+
+.textContainer .textoDescricao {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    opacity: 100%;
+    text-align: left;
+    font-size: 30px;
+}
+
+.imgContainer {
+    position: relative;
+    margin-left: 30px;
+}
+
+.imgContainer .primeiraFoto {
+    margin-top: 10px;
+}
+
+.imgContainer .segundaFoto {
+    margin-left: 10px;
+    margin-right: 170px;
+    margin-bottom: 170px;
+    z-index: 2;
+}
+
+.imgContainer .terceiraFoto {
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    border: #c2263d;
+    border-radius: 40px;
+    z-index: 2;
+    margin-top: 60px;
+    right: -70px;
+}
+
+.backgroundVermelho {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 265px;
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    background: rgba(139, 15, 45, 1);
+    width: 115px;
+    height: 290px;
+    border-radius: 40px;
+    transform: translateX(20px);
+}
+
+
+
+
+
+.videoContainer {
+    position: relative;
+}
+
+.videoContainer video {
+    display: block;
+    width: 100%;
+}
+
+.tituloViajar {
+    margin-top: 300px;
+    font-size: 46px;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    margin-top: 30px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.destaqueTituloViajar {
+    color: #c2263d;
+}
+
+.descricaoTituloViajar {
+    margin-top: 20px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.descricaoTituloViajar p {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100;
+    font-size: 26px;
+    opacity: 86%;
+}
+
+.tituloComoFunciona {
+    margin-top: 300px;
+    font-size: 46px;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    margin-top: 60px;
+
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+.cartoesContainer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+
+.card1 {
+    text-align: center;
+    height: 400px;
+    width: 340px;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.tituloDoCard {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.tituloDoCard2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.tituloDoCard3 {
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.descricaoDoCard {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 280px;
+    font-style: italic;
+    margin-left: 28px;
+    font-size: 20px;
+}
+
+.descricaoDoCard2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 300px;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.descricaoDoCard3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 300px;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.card2 {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 400px;
+    width: 340px;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card3 {
+    text-align: center;
+    height: 400px;
+    width: 340px;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.containerComoFunciona {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.numeroCardTurma img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 108px;
+    width: 54px;
+    height: 54px;
+}
+
+.tituloCardTurma {
+    text-align: center;
+    color: #5e1b25;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.descricaoCardTurma {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: 220px;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.seta1 {
+    margin-top: 64px;
+}
+
+.numeroCardDestino img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 108px;
+    width: 54px;
+    height: 54px;
+}
+
+.tituloDestino {
+    text-align: center;
+    color: #5e1b25;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.descricaoDestino {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: 220px;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.seta2 {
+    margin-top: 64px;
+}
+
+.numeroCardExperiencia img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 126px;
+    width: 54px;
+    height: 54px;
+}
+
+.tituloExperiencia {
+    text-align: center;
+    color: #5e1b25;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.descricaoExperiencia {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: 220px;
+    font-style: italic;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.seta3 {
+    margin-top: 64px;
+}
+
+.numeroCardHorizon img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 112px;
+    width: 54px;
+    height: 54px;
+}
+
+.tituloViajeHorizon {
+    text-align: center;
+    color: #5e1b25;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.descricaoViajeHorizon {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: 220px;
+    font-style: italic;
+    margin-left: 26px;
+    font-size: 20px;
+}
