@@ -348,9 +348,9 @@
                             <p>Navegação</p>
                         </li>
                     </div>
-                    <li><a href="home.php">Quem somos</a></li>
-                    <li><a href="home.php">Destinos</a></li>
-                    <li><a href="home.php">Contatos</a></li>
+                    <li><a href="sobreNos.html">Quem somos</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
                 </ul>
             </div>
             <div class="rodape3">

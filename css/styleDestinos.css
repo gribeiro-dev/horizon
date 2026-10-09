@@ -1,13 +1,8 @@
-.titulo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 50px;
-}
 .painel{
     justify-content: center;
     width: 1142px;
     height: 590.2px;
+    margin-top: 20px;
 }
 .painel img{
     width: 1142px;
@@ -38,6 +33,7 @@
     margin-left: 10px;
     border: 5px solid #5e1b25;
     background-color: #a85558;
+    width: 380px;
 }
 .viagens-fundamental{
     border: 5px solid #5e1b25 ;
@@ -58,4 +54,124 @@
     margin-left: 10px;
     border: 5px solid #5e1b25;
     background-color: #a85558;
+    width: 380px;
+}
+.viagens-recursos{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.viagens-recursos p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #5e1b25;
+}
+.exclusividade{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.botao-venha-horizon{
+    width: 1309px;
+    border-radius: 10px;
+    height: 305px;
+    text-align: center;
+    background-color: #4b0b16;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+.botao-venha-horizon h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+}
+.botao-venha-horizon p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.botao-venha-horizon button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px ;
+    background-color: #a85558;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border: #a85558;
+    margin-top: 70px;   
+}
+.botao-venha-horizon button:hover{
+    background-color: #5e1b25;
+    border: #5e1b25;
+}
+.exibicao img{
+    width: 1905;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.detalhes{
+    display: button;
+    justify-content: space-around;
+    width: 1200px;
+    text-align: center;
+    margin-left: 200px;
+
+}
+.detalhes-e-imagem{
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+}
+
+.detalhes h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.detalhes p {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 100px;
+    width: 700px;
+}
+
+.imagem-detalhes img{
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-right: 300px;
+    border-radius: 16px;
+}
+.passeios-e-atividades{
+    text-align: center;
+    border: 1px solid #713940;
+    background-color: #713940;
+    margin-bottom: 100px;
+}
+.passeios-e-atividades h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.passeios-e-atividades p{
+    font-size: 28px;
+    font-weight: 100;
+    width: 600px;
+    margin-top: 10px;
+    font-family: Opem Sans, Helvetica Neue, sans-serif;
+    margin-bottom: 10px;
+}
+.atividades-imagens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.tituloGames img{
+    width: 450px;
+}
+.tituloSurf img{
+    width: 305px;
+}
+.tituloPasseio img{
+    width: 412px;
 }
