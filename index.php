@@ -42,6 +42,9 @@
             <a href="contatos.html">
                 <p>Contatos</p>
             </a>
+            <a href="loja.html">
+                <p>Loja</p>
+            </a>
         </div>
     </head>
 
