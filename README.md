@@ -209,7 +209,7 @@ O desenvolvimento é realizado por uma equipe de estudantes no contexto do proje
 
 - Gustavo Ribeiro de Carvalho
 - Logan Bruno Coppini
-- Guiiherme Barrero
+- Guilherme de Andrade Barrero
 - Pedro Idalgo
 - Daniel Bezerra
 
