@@ -61,7 +61,7 @@
                 <div class="telefone-estado-cidade">
                     <div>
                         <label for="telefone">Telefone:</label> <br>
-                        <input class="telefone" type="text" name="telefone" placeholder=" (99) 9999-9999" required>
+                        <input class="telefone" type="tel" name="telefone" placeholder=" (99) 99999-9999" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" required>
                     </div>
 
                     <div >
@@ -98,20 +98,20 @@
                 <label for="voce">Você é: </label>
                 <select class="voce" id="" name="voce" required>
                     <option value="">Selecione uma opção</option>
-                    <option value="aluno">Aluno</option>
-                    <option value="responsavel">Responsável</option>
-                    <option value="escola">Gestão escolar</option>
+                    <option value="Aluno">Aluno</option>
+                    <option value="Responsável">Responsável</option>
+                    <option value="Escola">Gestão escolar</option>
                 </select>
 
                 <label for="destino">Destino: </label>
                 <select class="destino" name="destino" required>
                     <option value="">Selecione um destino</option>
-                    <option value="barca">Barcelona</option>
-                    <option value="lencois">Lençóis Maranhenses</option>
-                    <option value="paraty">Paraty RJ</option>
-                    <option value="campos">Campos do Jordão</option>
-                    <option value="salvador">Salvador</option>
-                    <option value="disney">Disney</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Lençóis Maranhenses">Lençóis Maranhenses</option>
+                    <option value="Paraty">Paraty RJ</option>
+                    <option value="Campos do Jordão">Campos do Jordão</option>
+                    <option value="Salvador">Salvador</option>
+                    <option value="Disney">Disney</option>
                 </select>
 
                 <textarea class="mensagem" name="mensagem" placeholder=" Mensagem" required></textarea>
